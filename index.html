@@ -1,0 +1,649 @@
+<!doctype html>
+<title>Diamond – Portfolio</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Diamond Dinh's portfolio" />
+<meta name="author" content="Diamond Dinh" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.fluid.classless.min.css"
+/>
+<link
+  href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600;6..12,700&family=Nunito:wght@400;500;600;700&display=swap"
+  rel="stylesheet"
+/>
+
+<main data-theme="light">
+  <div id="pink-top">
+    <section id="about">
+      <hgroup>
+        <h1>Diamond <span id="last-name">Dinh</span></h1>
+        <p>Computer Science Student, Past Software Engineer Intern</p>
+      </hgroup>
+
+      <div class="halved">
+        <aside>
+          <img class="avatar" src="./avatar.jpg" alt="Diamond Dinh" />
+        </aside>
+        <div id="intro">
+          <p>
+            <b>Hi!</b> I'm a <b>4th-year Computer Science major 👩‍🎓</b> and past
+            <b>Software Engineer Intern 🖥️</b>
+          </p>
+          <p>
+            I'm passionate about making the world a better place through
+            technology and open source
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="buttons">
+      <h4>Socials</h4>
+      <a href="https://github.com/diamondburned" target="_blank">
+        <img
+          class="icon"
+          alt="GitHub - diamondburned"
+          src="https://camo.githubusercontent.com/b079fe922f00c4b86f1b724fbc2e8141c468794ce8adbc9b7456e5e1ad09c622/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f6769746875622e737667"
+        />
+      </a>
+      <a href="https://tech.lgbt/@diamondburned" target="_blank">
+        <img
+          class="icon"
+          alt="Mastodon - @diamondburned@tech.lgbt"
+          src="https://camo.githubusercontent.com/8ca3a4e9106a7fd14171f3bf6cd46b44114efa5f52f98793036bda3b7f5a4c2c/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f6d6173746f646f6e2e737667"
+        />
+      </a>
+    </section>
+  </div>
+
+  <section id="toc">
+    <nav class="toc">
+      <h4><a href="#toc">Table of Contents</a></h4>
+      <ol>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#careers">Careers</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#interests">Interests</a></li>
+      </ol>
+    </nav>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <p>
+      I'm currently a Computer Science student at the California State
+      University, Fullerton.
+    </p>
+    <p>
+      Throughout university, I've been involved in
+      <a href="https://acmcsuf.com" target="_blank"
+        >the Association for Computing and Machinery (ACM) at CSUF</a
+      >. I've been a member since 2021 and I'm currently the Dev Team Lead for
+      the club.
+    </p>
+    <p>
+      I have been organizing and involving myself in many of our flagship
+      events, such as:
+    </p>
+    <ul>
+      <li>
+        <a href="https://acmcsuf.com/linux" target="_blank">Linuxfest</a>, which
+        taught members how to use Linux and gathered over 160 attendees,
+      </li>
+      <li>
+        <a href="https://nix.libdb.so/slides" target="_blank">Nix Workshop</a>,
+        which taught reproducible development environments,
+      </li>
+      <li>
+        <a href="https://acmcsuf.com/git-workshop" target="_blank"
+          >Git Workshop</a
+        >
+        with the help of a Dev Officer, which taught version control best
+        practices and how to use Git, and
+      </li>
+      <li>
+        many of our
+        <a href="https://acmcsuf.com/events" target="_blank"
+          >weekly Dev events</a
+        >!
+      </li>
+    </ul>
+  </section>
+
+  <section id="careers">
+    <h2>Careers</h2>
+    <p>
+      I was a two-time Software Engineer Intern at
+      <a href="https://about.google" target="_blank">Google</a>!
+    </p>
+
+    <div>
+      <hgroup>
+        <h3>Google STEP Intern</h3>
+        <div>
+          <span>Google Cloud Platform (GCP) - Kubernetes Engine (GKE)</span>
+          <span>Summer 2022</span>
+        </div>
+      </hgroup>
+      <ul>
+        <li>
+          I was responsible for <b>refactoring</b> an existing Bash
+          self-monitoring and debugging script into a Go binary.
+        </li>
+        <li>
+          This made the script
+          <b>far more reliable and easier to maintain</b>.
+        </li>
+        <li>
+          The script also translated into visible metrics accessible by on-call
+          engineers which helped them <b>debug issues faster</b>.
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <hgroup>
+        <h3>Google Software Engineer Intern</h3>
+        <div>
+          <span>Google Trust Services (GTS)</span>
+          <span>Summer 2023</span>
+        </div>
+      </hgroup>
+      <ul>
+        <li>
+          I was responsible for <b>reconciling</b> our internal certificate logs
+          with the public Certificate Transparency (CT) logs.
+        </li>
+        <li>
+          The reconciliation pipeline is able to ingest
+          <b>hundreds of thousands of logs every second</b>.
+        </li>
+        <li>
+          It is powered by the <b>Apache Beam</b> framework and runs on internal
+          Google infrastructure.
+        </li>
+        <li>
+          It helped us more easily detect certificate misissuance and
+          misbehavior by our Certificate Authorities (CAs), significantly
+          <b>decreasing our security paranoia</b>.
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>
+      I have been a self-taught open source developer for over 5 years now and
+      have various large open source projects on my belt. Here are some of my
+      projects:
+    </p>
+
+    <ul>
+      <li>
+        <a target="_blank" href="https://libdb.so/arikawa"><b>arikawa</b></a> –
+        a Discord library for Go with idiomatic patterns and ease of use in
+        mind.
+      </li>
+      <li>
+        <a target="_blank" href="https://libdb.so/gtkcord4"><b>gtkcord4</b></a>
+        – a Discord client for Linux written in Go and GTK4, written to be as
+        responsive as a truly native GUI application.
+      </li>
+      <li>
+        <a target="_blank" href="https://layover.party"><b>Layover Party</b></a>
+        – a website for finding flight layovers and match with other travelers.
+        It won LAHacks 2022's Best Travel category.
+      </li>
+      <li>
+        <a target="_blank" href="https://oss.acmcsuf.com/acm-aws"
+          ><b>acm-aws</b></a
+        >
+        – declarative, version-controlled Terraform deployment for AWS, used by
+        our club ACM at CSUF for hosting our infrastructure.
+      </li>
+    </ul>
+  </section>
+
+  <section id="interests">
+    <h2>Interests</h2>
+    <p>
+      I'm interested in <b>tooling development</b>, <b>backend development</b>,
+      and <b>infrastructure development</b>.
+    </p>
+    <p>
+      I'm also interested in <b>open source development</b> and have been a
+      self-taught open source developer for over 5 years now.
+    </p>
+    <p>
+      I'm also interested in <b>distributed systems</b> and
+      <b>cloud computing</b>.
+    </p>
+  </section>
+</main>
+
+<footer data-theme="light">
+  <span
+    >Made by <a href="https://libdb.so" target="_blank">diamondburned</a> with
+    ❤️</span
+  >
+  <span>🏳️‍⚧️ Trans rights are human rights</span>
+</footer>
+
+<style>
+  [data-theme="light"] {
+    --color: #1b1314;
+    --h1-color: var(--color);
+    --h2-color: var(--color);
+    --h3-color: var(--color);
+    --h4-color: var(--color);
+    --h5-color: var(--color);
+    --h6-color: var(--color);
+    --muted-color: #50343a;
+    --primary: #2ba8d8;
+    --primary-hover: #01b9ff;
+    --secondary: #56c2ec;
+    --secondary-hover: #3da4cc;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #ffdee5;
+    background-image: linear-gradient(
+      to bottom,
+      #ffe1e7 0%,
+      #ffe1e7 97%,
+      #ffc5d2 100%
+    );
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  body > main {
+    font-family: "Nunito Sans", sans-serif;
+    padding: 0;
+  }
+
+  body > footer {
+    --block-spacing-vertical: var(--spacing);
+
+    font-size: 0.8rem;
+    text-align: left;
+    padding-top: 0;
+    color: var(--muted-color);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--spacing);
+  }
+
+  @media (max-width: 500px) {
+    body > footer {
+      flex-direction: column;
+      text-align: center;
+      gap: 0;
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  hgroup {
+    font-family: "Nunito", sans-serif;
+  }
+
+  h1 {
+    --font-size: 3.5rem;
+    --typography-spacing-vertical: 2rem;
+  }
+  h2 {
+    --font-size: 2.5rem;
+    --typography-spacing-vertical: 1rem;
+  }
+  h3 {
+    --font-size: 1.5rem;
+    --typography-spacing-vertical: 0.5rem;
+  }
+
+  ul li {
+    list-style-type: disc;
+  }
+
+  section,
+  footer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+  footer {
+    margin-top: 3rem;
+  }
+
+  section > h1,
+  section > h2,
+  section > hgroup {
+    text-align: center;
+    margin-top: 2rem;
+    border-bottom: 2px solid transparent;
+  }
+
+  section:target h1:before,
+  section:target h2:before {
+    content: "❯ ";
+    opacity: 0.5;
+  }
+
+  section:target h1:after,
+  section:target h2:after {
+    content: " ❮";
+    opacity: 0.5;
+  }
+
+  img.icon,
+  img.avatar {
+    border-radius: 9999px;
+    aspect-ratio: 1/1;
+  }
+
+  div.halved {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  div.halved > p:last-child {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 500px) {
+    div.halved {
+      flex-direction: column;
+    }
+  }
+
+  div#pink-top {
+    display: flow-root;
+    position: relative;
+    box-shadow: 0 0 24px -4px rgba(0, 0, 0, 0.5) inset;
+
+    background-color: #f5a9b8;
+    background-image: url("./banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  div#pink-top:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+
+    background-color: #ffabbcaa;
+    backdrop-filter: blur(24px) brightness(80%) contrast(80%);
+  }
+
+  div#pink-top * {
+    z-index: 1;
+    position: relative;
+  }
+
+  div#pink-top section {
+    --vertical-spacing: 3rem;
+    margin-bottom: var(--vertical-spacing);
+  }
+  div#pink-top section:first-child {
+    margin-top: var(--vertical-spacing);
+  }
+
+  @media (max-width: 500px) {
+    div#pink-top section:first-child {
+      --vertical-spacing: 0;
+    }
+    div#pink-top section {
+      --vertical-spacing: 1.5rem;
+    }
+  }
+
+  section#toc {
+    background-color: var(--secondary);
+    box-shadow: 0 4px 8px -4px rgba(0, 0, 0, 0.25);
+    flex-direction: row;
+    justify-content: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+    padding: 0 1rem;
+    margin: 0;
+    max-width: unset;
+  }
+
+  nav.toc {
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+    margin: 0 auto;
+    gap: 1rem;
+  }
+
+  nav.toc h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    height: 3rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  nav.toc h4 a {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  nav.toc ol {
+    display: flex;
+    flex-direction: row;
+  }
+
+  nav.toc h4,
+  nav.toc h4 a,
+  nav.toc ol,
+  nav.toc ol li a {
+    color: white;
+    font-family: "Nunito", sans-serif;
+  }
+
+  nav.toc ol li {
+    height: 100%;
+  }
+
+  nav.toc ol li {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0;
+  }
+
+  nav.toc ol li:before {
+    border-left: 1px solid #fff7;
+    align-self: center;
+  }
+
+  nav.toc ol li a {
+    margin: 0;
+    padding: 0.5rem 0.75rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  nav.toc ol li a:hover,
+  nav.toc ol li a:target {
+    background-color: var(--primary-focus);
+    text-decoration: underline;
+  }
+
+  nav.toc + section {
+    padding-top: 2rem;
+  }
+
+  @media (max-width: 800px) {
+    section#toc {
+      transition: background-color 200ms ease-in-out;
+    }
+
+    section#toc:target nav.toc ol {
+      max-height: 50vh;
+    }
+
+    section#toc:hover:not(:target) {
+      background-color: var(--secondary-hover);
+    }
+
+    nav.toc {
+      min-height: 3rem;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    nav.toc h4 a {
+      width: 100%;
+    }
+
+    nav.toc h4:after {
+      content: "☰";
+      font-size: 1.5rem;
+      margin-left: auto;
+    }
+
+    nav.toc ol {
+      flex-direction: column;
+      align-items: stretch;
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height 200ms ease-in-out;
+    }
+
+    nav.toc ol li {
+      justify-content: flex-start;
+    }
+
+    nav.toc ol li:last-child {
+      margin-bottom: 1rem;
+    }
+
+    nav.toc ol li a {
+      width: 100%;
+    }
+
+    nav.toc ol li:before {
+      border-left: none;
+      align-self: center;
+    }
+  }
+
+  section#about hgroup {
+    text-align: left;
+  }
+
+  section#about img.avatar {
+    border: 6px solid white;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.25);
+    max-width: 250px;
+  }
+
+  section#about hgroup > p {
+    --color: inherit;
+  }
+
+  @media (max-width: 500px) {
+    section#about hgroup {
+      text-align: center;
+    }
+    #last-name {
+      display: none;
+    }
+  }
+
+  div#intro p {
+    font-size: 1.15rem;
+  }
+
+  div#intro p:last-child {
+    margin-bottom: 0;
+  }
+
+  section#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+
+    width: fit-content;
+    background-color: #fff4;
+    padding: 1rem;
+    border-radius: 1rem;
+
+    box-shadow: 0 4px 8px -4px rgba(0, 0, 0, 0.25);
+  }
+
+  section#buttons h4 {
+    margin: 0;
+    align-self: center;
+  }
+
+  section#buttons img.icon {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  section#buttons a > img {
+    transition: all 150ms ease-in-out;
+    transform: scale(1) rotate(0deg);
+  }
+
+  section#buttons a:hover > img {
+    transform: scale(1.35) rotate(-5deg);
+    outline: 2px solid var(--accent);
+  }
+
+  section#careers hgroup div {
+    color: var(--color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  @media (max-width: 500px) {
+    section#careers hgroup div {
+      flex-direction: column;
+    }
+    section#careers hgroup div > * {
+      margin-top: 0.5rem;
+    }
+  }
+</style>
