@@ -46,6 +46,7 @@
       <a href="https://github.com/diamondburned" target="_blank">
         <img
           class="icon"
+          title="GitHub - diamondburned"
           alt="GitHub - diamondburned"
           src="https://camo.githubusercontent.com/b079fe922f00c4b86f1b724fbc2e8141c468794ce8adbc9b7456e5e1ad09c622/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f6769746875622e737667"
         />
@@ -53,8 +54,41 @@
       <a href="https://tech.lgbt/@diamondburned" target="_blank">
         <img
           class="icon"
+          title="Mastodon - @diamondburned@tech.lgbt"
           alt="Mastodon - @diamondburned@tech.lgbt"
           src="https://camo.githubusercontent.com/8ca3a4e9106a7fd14171f3bf6cd46b44114efa5f52f98793036bda3b7f5a4c2c/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f6d6173746f646f6e2e737667"
+        />
+      </a>
+      <a href="#" data-copy="@diamondburned">
+        <img
+          class="icon"
+          title="Discord - @diamondburned"
+          alt="Discord - @diamondburned"
+          src="https://camo.githubusercontent.com/79fcdc7c43f1a1d7c175827976ffee8177814a016fb1b9578ff70f1aef759578/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f646973636f72642e737667"
+        />
+      </a>
+      <a href="https://matrix.to/#/@diamondburned:matrix.org" target="_blank">
+        <img
+          class="icon"
+          title="Matrix - @diamondburned:matrix.org"
+          alt="Matrix - @diamondburned:matrix.org"
+          src="https://camo.githubusercontent.com/9a76a39d6eb69e40a438df8958ca14352ed0a801a784f9d7f1972a2e370a5c33/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f6d61747269782e737667"
+        />
+      </a>
+      <a href="https://linkedin.com/in/diamondnotburned" target="_blank">
+        <img
+          class="icon"
+          title="LinkedIn - Diamond Dinh"
+          alt="LinkedIn - Diamond Dinh"
+          src="https://camo.githubusercontent.com/c8a9c5b414cd812ad6a97a46c29af67239ddaeae08c41724ff7d945fb4c047e5/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f6c696e6b6564696e2e737667"
+        />
+      </a>
+      <a href="mailto:diamond@libdb.so" target="_blank">
+        <img
+          class="icon"
+          title="Email - diamond@libdb.so"
+          alt="Email - diamond@libdb.so"
+          src="https://camo.githubusercontent.com/21863a9a063d33b20608be917f5601f309abec90ae5cf5dedea38bb6b55d11ab/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f6d61696c2e737667"
         />
       </a>
     </section>
@@ -234,3 +268,17 @@
   >
   <span>🏳️‍⚧️ Trans rights are human rights</span>
 </footer>
+
+<script>
+  function copyToClipboard(value) {
+    navigator.clipboard.writeText(value);
+    alert(`Copied "${value}"`);
+  }
+
+  document.querySelectorAll(`[data-copy]`).forEach((el) => {
+    el.addEventListener(`click`, () => {
+      copyToClipboard(el.dataset.copy);
+      return false;
+    });
+  });
+</script>

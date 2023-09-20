@@ -363,6 +363,7 @@ div#intro p:last-child {
 section#buttons {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
 
