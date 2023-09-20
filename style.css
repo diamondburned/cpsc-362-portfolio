@@ -164,7 +164,6 @@ div#pink-top:before {
 }
 
 div#pink-top * {
-  z-index: 1;
   position: relative;
 }
 
@@ -409,4 +408,8 @@ section#careers hgroup div {
   section#careers hgroup div > * {
     margin-top: 0.5rem;
   }
+}
+
+#oneko {
+  filter: drop-shadow(2px 3px 1px #0004);
 }
