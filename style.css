@@ -191,7 +191,7 @@ section#toc {
   justify-content: center;
 
   position: sticky;
-  top: 0;
+  top: -1px;
   z-index: 1;
 
   padding: 0 1rem;
